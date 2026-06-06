@@ -1,0 +1,22 @@
+# --- Dependencies ---
+node_modules/
+
+# --- Secrets ---
+.env
+
+# --- Build Outputs ---
+dist/
+build/
+
+# --- GitVerse Test Repositories ---
+projectAlpha/
+projectBeta/
+projectGamma/
+helloWorld.js
+
+# --- GitVerse Internal Tracking ---
+.gitverse/
+
+# --- Temporary/Test Files ---
+test.txt
+test2.txt
