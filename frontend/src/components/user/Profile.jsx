@@ -3,7 +3,7 @@ import { Box, Typography, Button, Avatar, CssBaseline, CircularProgress } from "
 import { Logout } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../Navbar";
-import Heatmap from "./Heatmap"; 
+import Heatmap from "./HeatMap"; 
 import { apiUrl } from "../../config/api";
 
 const Profile = () => {
