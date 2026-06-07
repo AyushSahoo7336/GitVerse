@@ -47,15 +47,18 @@ The project was built to demonstrate full-stack systems engineering concepts, in
 ## ✨ Features
 
 ### ⚡ Custom CLI Engine
-
-* Custom Node.js command-line tool
-* Supports core version control operations:
-
+* **Command-Line Interface:** Custom Node.js CLI for seamless repository management.
+* **Lifecycle & Version Control Operations:**
+  * `start`
   * `init`
+  * `remote add`
   * `add`
   * `commit`
   * `push`
-* Local repository state tracking and synchronization
+  * `pull`
+  * `revert`
+* **State Tracking:** Advanced local repository state tracking and synchronization.
+* **Ignore Configurations:** Custom `.gitverseignore` support for excluding specific files and directories from staging and synchronization.
 
 ### 🔒 Secure Authentication
 
