@@ -43,7 +43,31 @@ The project was built to demonstrate full-stack systems engineering concepts, in
 * Teams requiring centralized commit monitoring
 
 ---
+## 📸 Screenshots
 
+### 1. Authentication & Onboarding
+* **Secure Access:** Clean, protected JWT login and registration flows.
+  ![Sign In](./assets/signIn.png)
+  ![Sign Up](./assets/signUp.png)
+
+### 2. Dashboard & Repository Management
+* **Explore Dashboard:** A community feed highlighting public repositories alongside the CLI Quick Guide.
+  ![Dashboard](./assets/dashboard.png)
+* **Repository Creation:** Granular access controls featuring Public/Private visibility toggles.
+  ![New Repository](./assets/newRepo.png)
+
+### 3. Deep Commit Inspection
+* **Commit Timeline:** Visual tracking of repository evolution with unique commit hashes.
+  ![Commit History](./assets/CommitHistory.png)
+* **Directory State:** View the exact file structure of the repository at any historical commit.
+  ![Inside Commit](./assets/InsideCommit.png)
+* **In-Browser Code Viewer:** Read raw source code and file contents directly within the GitVerse UI.
+  ![Code Viewer](./assets/Code.png)
+
+### 4. Developer Profile
+* **Contribution Heatmap:** Dynamic, algorithmic activity graph tracking user commit frequencies over time.
+  ![Profile](./assets/profile.png)
+  
 ## ✨ Features
 
 ### ⚡ Custom CLI Engine
