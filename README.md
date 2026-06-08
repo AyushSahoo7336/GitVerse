@@ -66,12 +66,13 @@ The project was built to demonstrate full-stack systems engineering concepts, in
 * JWT-based authentication
 * Protected repository access
 
-### 📊 Repository Visualization
+### 📊 Repository Visualization & Community
 
-* Interactive React dashboard
-* Repository tree visualization
-* Commit history tracking
-* Centralized repository monitoring
+* **Interactive React Dashboard:** Real-time visual tracking of repository trees and commit histories.
+* **Contribution Heatmap:** A dynamic, algorithmic activity graph on the user profile that visually maps commit frequencies over time.
+* **Public & Private Repositories:** Granular database-level access control allowing users to toggle repository visibility.
+* **Explore Feed:** A centralized community dashboard displaying all public repositories across the GitVerse ecosystem.
+* **Deep Commit Inspection:** Drill down into individual commits to explore historical file directories and view raw source code directly within the browser interface.
 
 ### ☁️ Cloud Synchronization
 
@@ -291,6 +292,9 @@ Implemented JWT-based authentication and authorization workflows to protect repo
 
 ### Repository Visualization Dashboard
 Built a React-based dashboard that visualizes repository structures and commit histories, providing a centralized interface for monitoring project evolution.
+
+### Payload Parsing & Code Rendering
+Engineered a deep-inspection UI capable of parsing complex JSON directory payloads from MongoDB, allowing users to drill down through historical commit trees and render raw file contents directly in the browser.
 
 ### Environment-Aware Deployment
 Designed dynamic API routing and configuration management to support deployment across local, Vercel-hosted, and Render-hosted environments.
